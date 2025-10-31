@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Penutup</title>
+<link rel="stylesheet" href="profile.html">
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000, #222);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 3em;
+    animation: glow 2s ease-in-out infinite alternate,
+               move 5s linear infinite;
+  }
+
+  @keyframes glow {
+    from { text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff; }
+    to   { text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff; }
+  }
+
+  @keyframes move {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+</style>
+</head>
+<body>
+  <h1>Terimakasih</h1>
+</body>
+</html>
+ 
